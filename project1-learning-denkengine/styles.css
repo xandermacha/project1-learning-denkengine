@@ -1,0 +1,163 @@
+@import "textanimate.css";
+
+body, html{
+    height: 100%;
+   
+}
+
+body {
+    /* background-color: rgb(166, 132, 219); */
+    /* background-image: linear-gradient(rgb(119, 21, 136), rgb(193, 53, 193), rgb(150, 30, 158), rgb(69, 3, 91)); */
+    background-image: url(pictures/jackboys.jpg);
+    scroll-behavior: smooth;
+
+    height: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    
+    
+}
+
+.quotes {
+    justify-content: center;
+    display: flex;
+    width: 1024px;
+    margin-top: -22px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+    text-shadow: 5px 5px 9px #d78e21;
+    position: absolute;
+    color: antiquewhite;
+}
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024px;
+}
+.twitt {
+    color: darkmagenta;
+    font-size: 25px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+    /* @keyframes h1 {
+    0% {left: 0px; top: 0px;}
+    50% {left: -2px; top: 0px;}
+    100% {left: 0px; top: -2px;}
+} */
+@keyframes movin {
+    0% { left: 850px; top: 45px;}
+    25% { left: 850px; top: 800px;}
+    50% { left: -850px; top: 800px;}
+    75% { left: -850px; top: 45px;}
+    100% { left: 850px; top: 45px;}
+     
+}
+img { 
+    margin-bottom: 0%;
+    width: auto;
+    height: auto;
+    max-width: 150px;
+    max-height: fit-content;
+    position: relative;
+    /* animation-name: movin;
+    animation-duration: 4s;
+    animation-iteration-count: infinite; */
+}
+header {
+    
+    text-align: center;
+    
+    height: 118px;
+    width: 1024px;
+}
+nav { 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.65);
+    padding-top: 14px;
+    padding-bottom: 14px;
+    margin-top: 0;
+}
+
+main { 
+    
+    height: 400px;
+    text-align: center;
+    margin-bottom: -5%;
+    padding-top: 80px;
+    padding-left: 240px;
+    padding-right: 240px;
+}
+
+footer { 
+    text-align: center;
+    font-size: large;
+    background-color: rgba(0, 0, 0, 0.65);
+    position: relative;
+    margin-bottom: -2%;
+    height: 75px;
+    clear: both;
+}
+ /* h1 {
+    
+    font-size: 84px;
+    color: rgb(118, 205, 32);
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 4px 4px 8px rgb(132, 178, 41);
+    position: relative;
+    animation-name: h1;
+    animation-duration: 1000ms;
+    animation-iteration-count: '' ;
+}  */
+h2{
+    margin-top: 54%;
+    padding-bottom: 2%;
+
+    position: static;
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900;
+    color: rgb(192, 183, 196);
+}
+p {
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px 8px #000000;
+}
+
+ nav a {
+    text-decoration: none;
+    text-align: match parent;
+    text-shadow: 5px 7px 4px rgba(153, 205, 50, 0.678);
+    font-size: 17px;
+    padding-left: 15px;
+    padding-right: 15px;
+    
+    color: white;
+    
+    
+} 
+footer h4{
+    position: relative;
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900;
+    color: rgb(192, 183, 196);
+    margin-bottom: 0%;
+    position: center center;
+}
+footer p{
+    padding-bottom: 10px;
+    position: relative;
+    margin-top: 6px;
+    text-align: center;
+    
+}
